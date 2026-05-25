@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+aside > img{
+    max-width: 40%;
+    height: auto;
+    position: absolute;
+}
+
+div.odin {
+    margin-top: 10%;
+    display: flex;
+    position: absolute;
+    width: 40%;
+    height: auto;
+    background: black;
+    opacity: 0.4;
+    align-items: center;
+    color: white;
+}
+.odin> div > img {
+    width: 20%;
+}
+
+.logo {
+    flex-direction: row;
+}
+
+footer {
+    position: absolute;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 55% 0;
+    padding: 0px 10%;
+}

@@ -4,6 +4,17 @@
     border: 0;
     box-sizing: border-box;
 }
+main {
+    display: flex;
+    gap: 20em;
+}
+aside {
+    flex: 1;
+}
+
+section {
+    flex: 3;
+}
 
 aside > img{
     max-width: 40%;
